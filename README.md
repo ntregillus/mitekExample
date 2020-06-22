@@ -17,4 +17,9 @@ $ npm run start
 $ npm run generate
 ```
 
+## Notes for Mitek
+Hey there, if you launch the app in firefox, you will see the "document.currentScript is null" error. 
+
+The import logic is in the `index.vue` file under pages.
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
